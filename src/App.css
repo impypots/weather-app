@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* @media screen and (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+  }
+} */
+
+h1 {
+  text-align: center;
+}
+
+.App {
+  border: 2px solid rgb(145, 145, 145);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+
+.forcast-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgray;
+  margin: 10px;
+  
+}
+
+.forcast-container div:first-of-type {
+  background: lightgray;
+}
+
+.day-forcast {
+  color: rgb(117, 117, 117);
+  padding: 10px 24px;
+  /* border: 1px solid goldenrod; */
+}
+
+.day-forcast img {
+  display: block;
+}
+
+.day-forcast h3 {
+  text-align: center;
+}
+
+.day-forcast p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.day-forcast p span:first-child {
+  color: rgb(66, 66, 66);
+}
+
+.day-forcast span {
+  padding: 0 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+
+
+
+
+
+
+
